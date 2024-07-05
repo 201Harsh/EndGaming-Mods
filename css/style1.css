@@ -1,0 +1,110 @@
+@media only screen and (max-width:750px) {
+    .container h1 {
+        width: auto;
+    }
+
+    .body p {
+        width: auto;
+    }
+
+    .mod_btn {
+        width: 50%;
+        margin-top: 72px;
+    }
+
+    .second {
+        height: auto;
+    }
+
+    .cards_items {
+        display: block;
+    }
+
+    .card_item {
+        width: 100%;
+        margin: 0;
+        margin-top: 12px;
+    }
+
+    .third {
+        height: auto;
+    }
+
+    .games_body {
+        display: block;
+    }
+
+    .games,
+    .games1,
+    .games2,
+    .games3,
+    .games4,
+    .games5 {
+        margin: 0;
+        width: 125%;
+        margin-top: 16px;
+    }
+
+    .forth {
+        margin-top: 12px;
+    }
+
+
+    footer {
+        display: block;
+    }
+
+    .contact_us input {
+        margin-left: 32px;
+    }
+
+    .contact_us textarea {
+        margin-left: 32px;
+    }
+
+    .submit {
+        width: 50%;
+    }
+
+    .left {
+        left: 10px;
+    }
+
+    .left img {
+        width: 50%;
+        position: relative;
+        top: 270px;
+    }
+
+    .right {
+        right: 0;
+    }
+
+    .right img {
+        width: 50%;
+        position: relative;
+        top: 270px;
+    }
+
+    .logo {
+        width: auto;
+        height: 60%;
+        position: initial;
+        margin-top: 62px;
+    }
+
+    .bottom {
+        left: 0;
+        top: 165px;
+        margin-top: 0;
+    }
+
+
+    nav ul a {
+        padding: 0 18px;
+    }
+
+    nav ul a li img {
+        display: none;
+    }
+}
