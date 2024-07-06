@@ -4,6 +4,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    overflow: hidden;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +25,59 @@ html {
     --button-color: #b688f3;
 
 }
+
+/* Pre-loader Section */
+
+#preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    overflow: hidden;
+}
+
+.loader h1 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    animation: bounce 5s infinite, glow 1.5s infinite alternate;
+    color: #00ff00;
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(0, 255, 0, 0.7), 0 0 20px rgba(0, 255, 0, 0.7), 0 0 30px rgba(0, 255, 0, 0.7);
+    }
+
+    to {
+        text-shadow: 0 0 20px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 1), 0 0 40px rgba(0, 255, 0, 1);
+    }
+}
+
+#first{
+    display: none;
+}
+
 
 /* First Section */
 
@@ -105,6 +163,10 @@ html {
     cursor: help;
 }
 
+
+.heads i {
+    font: normal normal normal 14px/1 FontAwesome;
+}
 
 .heads h3 {
     font-family: var(--font-primary);
@@ -453,7 +515,7 @@ nav ul a:hover {
     background-color: #277c20;
 }
 
-.bottom{
+.bottom {
     margin-top: 500px;
     position: relative;
     left: 130px;
@@ -463,12 +525,12 @@ nav ul a:hover {
     font-weight: 400;
 }
 
-.end a{
+.end a {
     text-decoration: none;
     color: var(--text-color);
 }
 
-.end a:hover{
+.end a:hover {
     color: #7af184;
     cursor: pointer;
 }

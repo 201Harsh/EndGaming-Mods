@@ -1,4 +1,4 @@
-console.log('Script Testing 1')
+console.log('Script Testing 1s')
 document.getElementById('games').addEventListener('click', function () {
     window.location.href = "https://www.google.com"
 });
